@@ -1,0 +1,6 @@
+banker algorithm
+all of scheduling
+
+
+minmax algorithm
+alpha beta pruning

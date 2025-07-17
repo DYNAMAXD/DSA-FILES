@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "random": "cpp",
+        "iostream": "cpp",
+        "ratio": "cpp",
+        "cmath": "cpp",
+        "stdio.h": "c",
+        "array": "c",
+        "string": "c",
+        "initializer_list": "cpp",
+        "vector": "cpp"
+    }
+}
