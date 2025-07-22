@@ -65,19 +65,25 @@ void dsolve(int n ,  vector<vector<string>>&ans , vector<vector<char>>&board , i
             board[row][col] = 'Q';
 
             //abh ye queen jis row , lowerDiagonal , upperDiagonal ko block karegi usko update karo
+            //ye mapping ko revert back karna mat bhulna
+            
+            //--->[YE MAI BHUL JATA HU]<---
             chkRow[row] = true;
             lowerDiagonal[row + col] = true;
             upperDiagonal[row - col] = true;
-
+            
             
             //baaki recursion ko dedo
             dsolve(n , ans , board , col+1);
-
+            
             //yaha pe tabhi aayenge ,jabh wo niche wala return call hoga
             //matlab next col me koi place nai hai jaha pe queen place ho sakta hai
             //toh , iss queen ko relocate karo
             board[row][col] = '.';
             //abh ye queen jis-jis row , lowerDiagonal aur upperDiagonal ko block karegi usko wapis false karo
+            //ye mapping ko revert back karna mat bhulna
+
+            //--->[YE MAI BHUL JATA HU]<---
             chkRow[row] = false;
             lowerDiagonal[row + col] = false;
             upperDiagonal[row - col] = false;
