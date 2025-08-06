@@ -1,0 +1,2 @@
+
+    string t = "ABC";
