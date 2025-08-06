@@ -21,13 +21,13 @@ bool isOkay(vector<int>h1 , string s )
 
 int main()
 {
-    // string s = "ADOBECODEBANC";
-    // string t = "ABC";
+    string s = "ADOBECODEBANC";
+    string t = "ABC";
     
     // string s = "zxgsxsczeymhaqkerxyumpjazzjfqsgRVJWEHWXNOUOpsorapwtdlyhxoplpvyVCQYSOGYAXNjwnpnrivyftoalcqnkptmudwpic";
     // string t = "OVUCOQNYXSWOHGEYWAJXVNR";
-    string s = "a";
-    string t = "aa";
+    // string s = "a";
+    // string t = "aa";
 
     vector<int> h1(26 , 0);
     
@@ -46,7 +46,7 @@ int main()
                 cout<<s.substr(a , i) << (isOkay(h1 , s.substr(a , i)))<<endl;
                 if(isOkay(h1 , s.substr(a , i)))
                 {
-                    
+
                     break;
                 }
             }
