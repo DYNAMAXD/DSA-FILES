@@ -9,6 +9,9 @@
         "array": "c",
         "string": "c",
         "initializer_list": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp"
     }
 }
