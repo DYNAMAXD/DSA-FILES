@@ -27,7 +27,7 @@ int main()
         sort(i.second.begin() , i.second.end());
         if(i.first < 0)
         {   
-            reverse(i.second.begin() , i.second.end());
+            // reverse(i.second.begin() , i.second.end());
         }
         cout<<i.first<<" -> ";
         for(auto j : i.second)
