@@ -109,7 +109,6 @@ void dsolve(int n ,  vector<vector<string>>&ans , vector<vector<char>>&board , i
         {
             for(auto j : i)
             {
-
                 cout<<j<<endl;
             }
             cout<<endl<<endl;
