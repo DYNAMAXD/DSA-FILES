@@ -1,1 +1,1 @@
-printll
+root->next == NULL

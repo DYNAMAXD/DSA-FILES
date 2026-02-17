@@ -1,0 +1,14 @@
+1. Delete N Nodes after M Nodes
+2. Merge Two Sorted Lists
+3. Print kth Node from the End
+4. Intersection of Two Linked Lists
+5. Sort Lists using Merge Sort
+6. Flatten Linked List
+7. Copy List with Random Pointer
+8. Rotate List
+9. Find Minimum and Maximum Number of Nodes Between Critical Points
+10. Merge Nodes in between Zeros
+11. Odd Even Linked List
+12. Double a Number Represented as a Linked List
+13. Remove Zero Sum Consecutive Nodes from Linked List
+14. Swapping Nodes in a Linked List
